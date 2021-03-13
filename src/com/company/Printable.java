@@ -1,10 +1,11 @@
 package com.company;
 
-public interface Printable<A> {
+public interface Printable<T> {
+
+    void print(T a);
 
 
-    void print(Car.Sedan a);
 
-    A print();
+
 
 }
