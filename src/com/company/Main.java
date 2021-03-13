@@ -36,10 +36,15 @@ public class Main {
         venusplanet.print(venus);
 
 
+        System.out.println("------------------------");
 
+
+        SolarSystem<Mars> marsplanets = new SolarSystem<>();
+        Mars mars = new Mars(4,2001);
+        marsplanets.setName(mars);
+        marsplanets.print(mars);
+        System.out.println("Название планеты: " + venus.getNumber());
+        System.out.println("Обьем планеты: " + venus.getVolume());
 
     }
-
-
-
 }
